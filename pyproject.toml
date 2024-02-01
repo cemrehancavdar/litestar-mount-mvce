@@ -1,0 +1,15 @@
+[project]
+name = "register-litestar-to-litestar"
+version = "0.1.0"
+description = "Add your description here"
+authors = [{ name = "cemrehancavdar", email = "cemrehancavdar@hotmail.com" }]
+dependencies = ["litestar[standard]>=2.5.4"]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+
